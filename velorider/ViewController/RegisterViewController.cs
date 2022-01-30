@@ -93,6 +93,7 @@ namespace velorider
 				alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, null));
 				PresentViewController(alert, true, null);
 				return;
+
 			}
 
 			ShowProgressBar("Registering your account ...");
