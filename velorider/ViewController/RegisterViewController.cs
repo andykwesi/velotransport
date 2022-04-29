@@ -90,7 +90,7 @@ namespace velorider
 			else if(password.Length < 8)
             {
                 var alert = UIAlertController.Create("Alert", "Please enter a password up to 8 characters", UIAlertControllerStyle.Alert);
-				alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, null));
+				alert.AddAction(UIAlertAction.Create("Okay", UIAlertActionStyle.Default, null));
 				PresentViewController(alert, true, null);
 				return;
 
