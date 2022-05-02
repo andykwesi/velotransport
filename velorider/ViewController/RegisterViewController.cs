@@ -96,6 +96,8 @@ namespace velorider
 
 			}
 
+			// Show Progress bar
+
 			ShowProgressBar("Registering your account ...");
 
 			Auth.DefaultInstance.CreateUser(email, password, (AuthDataResult authresult, NSError error) =>
